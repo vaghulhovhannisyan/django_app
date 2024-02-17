@@ -1,0 +1,28 @@
+{% load tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    summary {
+        font-weight: bold;
+    }
+
+    details[open] p{
+        padding: 1em;
+        line-height:0;
+    }
+    details[open] summary {
+        border-bottom: 1px solid #aaa;
+        margin-bottom: 0.5em;
+    }
+</style>
+<body>
+{% template_tag %}
+</body>
+</html>
+
+
